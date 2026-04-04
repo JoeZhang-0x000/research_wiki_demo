@@ -43,6 +43,8 @@ python skills/<name>.py --help
 | Skill | Purpose |
 |-------|---------|
 | `skills/digest.py` | Full ingestion pipeline: rename new raw files + create summary stubs |
+| `skills/evidence.py` | Build grounded evidence bundles from wiki/ + raw/ provenance |
+| `skills/backfill_provenance.py` | Repair stale raw refs and missing summary links across wiki/ |
 | `skills/ingest.py` | Find raw/ files not yet referenced by wiki/summaries/ |
 | `skills/rename.py` | Slugify raw/ filenames based on frontmatter title — updates wiki refs |
 | `skills/search.py` | Keyword search across wiki/ — stdout only |
@@ -65,6 +67,14 @@ To add a skill: create `skills/<name>.py`, add to `skills/README.md`.
 
 **`wiki/` is only modified through the pipeline (`/digest`, `/distill`, `/reorganize`).**
 **Never write to `wiki/` in response to a user request for generated content.**
+
+## Grounded Generation Policy
+
+- Query, analysis, and any generated prose must be grounded in `wiki/` content only.
+- Run `python skills/evidence.py "<question>" --json` before answering or analyzing.
+- Every substantive claim must cite one or more evidence ids such as `[S1]`.
+- If the wiki does not cover the question well enough, say so explicitly and stop instead of filling gaps from model priors.
+- `wiki/summaries/` are the primary evidence layer. `wiki/concepts/` and `wiki/topics/` are synthesis layers and should remain traceable back to summary/raw/url provenance.
 
 ---
 

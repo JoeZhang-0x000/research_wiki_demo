@@ -138,7 +138,7 @@ def update_summary_refs(page: Path, old_name: str, new_name: str):
 
 def get_source_info(path: Path) -> dict:
     text = path.read_text(encoding="utf-8")
-    info = {"type": "web", "author": "", "year": "", "venue": ""}
+    info = {"type": "web", "author": "", "year": "", "venue": "", "url": ""}
 
     in_fm = False
     for line in text.splitlines():
@@ -187,6 +187,7 @@ def create_summary(raw_path: Path, new_raw_name: str) -> str:
     author = info.get("author", "")
     year = info.get("year", "")
     url = info.get("url", "")
+    links_block = f"links:\n  - {url}" if url else "links: []"
 
     content = f"""---
 title: "Summary — {title}"
@@ -196,7 +197,7 @@ created: {today}
 updated: {today}
 sources:
   - raw/{new_raw_name}
-  - {url}
+{links_block}
 tags: []
 ---
 

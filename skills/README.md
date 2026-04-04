@@ -12,7 +12,9 @@ python skills/<name>.py --help
 
 | Script | Description |
 |--------|-------------|
+| `backfill_provenance.py` | Repair stale raw references and missing summary links across wiki/ |
 | `digest.py` | Full ingestion pipeline: rename new raw files + create summary stubs |
+| `evidence.py` | Build grounded evidence bundles from wiki/ pages and raw/ provenance |
 | `ingest.py` | Find raw/ files not yet referenced by any wiki/summaries/ page |
 | `rename.py` | Slugify raw/ filenames based on frontmatter title — updates wiki refs |
 | `search.py` | Keyword search across wiki/ — stdout only, no files written |

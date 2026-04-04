@@ -20,6 +20,13 @@ raw/  →  /digest  →  wiki/
 
 Ingestion state is structural: a raw file is *compiled* when any `wiki/summaries/` page lists it in `sources:`. No sidecar files.
 
+## Grounded Answers
+
+- Run `python skills/evidence.py "<question>" --json` before `/query` or `/analyze`
+- Generated answers must be grounded in `wiki/` only
+- Every substantive claim should cite evidence ids such as `[S1]`
+- If the wiki lacks coverage, report the gap instead of filling it from model priors
+
 ---
 
 ## Slash Commands
@@ -41,6 +48,7 @@ Executable logic lives in `skills/`. Always check before implementing anything.
 
 ```bash
 python skills/ingest.py          # find undigested raw/ files
+python skills/evidence.py "term" # build grounded evidence bundle
 python skills/search.py "term"   # search wiki/ (stdout)
 python skills/lint.py            # structural health check
 python skills/stub.py <type> <name>  # create a blank wiki page

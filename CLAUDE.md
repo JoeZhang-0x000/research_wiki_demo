@@ -28,6 +28,8 @@ python skills/<name>.py --help
 
 Built-in: `ingest.py`, `search.py`, `lint.py`, `stub.py`, `reorganize.py`
 
+Grounded generation helpers: `evidence.py`, `backfill_provenance.py`
+
 ---
 
 ## Output vs Wiki — Hard Boundary
@@ -63,12 +65,17 @@ No exceptions. Even if the output looks like a concept page — if the user requ
 
 ## Query Policy
 
-`/query` → read wiki → answer in conversation → note gaps → ask user.
+`/query` → build an evidence bundle from wiki → answer in conversation with citations → note gaps → ask user.
 Never write to `output/` for a query.
+
+Every substantive claim must cite the evidence bundle ids (`[S1]`, `[S2]`, ...).
+If `python skills/evidence.py "<question>" --json` reports `coverage: not-covered`, do not answer from priors; tell the user the wiki does not cover it well enough.
 
 ## Analysis Policy
 
-`/analyze` → five passes → write ONE file to `output/` → tell user key findings → ask before touching wiki.
+`/analyze` → build an evidence bundle from wiki → five passes using only that evidence → write ONE file to `output/` → tell user key findings → ask before touching wiki.
+
+All analysis claims and synthesis must remain traceable to summary/raw/url provenance from the evidence bundle.
 
 ## Distillation Policy
 

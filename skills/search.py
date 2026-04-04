@@ -39,6 +39,9 @@ def fm_field(text: str, field: str) -> str:
 
 def fm_list(text: str, field: str) -> list[str]:
     """Extract a YAML list field from frontmatter."""
+    def clean(value: str) -> str:
+        return value.strip().strip('"').strip("'")
+
     lines = text.splitlines()
     result = []
     in_field = False
@@ -53,11 +56,11 @@ def fm_list(text: str, field: str) -> list[str]:
             in_field = True
             inline = line.split(":", 1)[1].strip()
             if inline and inline != "[]":
-                result.append(inline.strip("[]").strip())
+                result.append(clean(inline.strip("[]").strip()))
             continue
         if in_field:
             if re.match(r"^\s+-", line):
-                result.append(re.sub(r"^\s+-\s*", "", line).strip())
+                result.append(clean(re.sub(r"^\s+-\s*", "", line).strip()))
             else:
                 break
     return [r for r in result if r]

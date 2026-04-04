@@ -7,7 +7,9 @@ Checks:
   2. Orphan pages — not linked from anywhere
   3. Missing frontmatter fields (title, type, status, sources)
   4. [UNVERIFIED] claims in stable pages
-  5. Similar-name duplicates in raw/ (exact duplicates flagged separately)
+  5. Broken provenance references (missing raw/ files, summary links drift)
+  6. Template placeholders left in wiki pages
+  7. Similar-name duplicates in raw/ (exact duplicates flagged separately)
 
 Usage:
     python skills/lint.py
@@ -54,6 +56,43 @@ def frontmatter(text: str) -> dict[str, str]:
             k, _, v = line.partition(":")
             fields[k.strip()] = v.strip()
     return fields
+
+
+def fm_list(text: str, field: str) -> list[str]:
+    def clean(value: str) -> str:
+        return value.strip().strip('"').strip("'")
+
+    lines = text.splitlines()
+    result = []
+    in_field = False
+    in_fm = False
+    for line in lines:
+        if line.strip() == "---":
+            in_fm = not in_fm
+            continue
+        if not in_fm:
+            break
+        if line.startswith(field + ":"):
+            in_field = True
+            inline = line.split(":", 1)[1].strip()
+            if inline and inline != "[]":
+                result.append(clean(inline.strip("[]").strip()))
+            continue
+        if in_field:
+            if re.match(r"^\s+-", line):
+                result.append(clean(re.sub(r"^\s*-\s*", "", line).strip()))
+            else:
+                break
+    return [item for item in result if item]
+
+
+def raw_source_url(raw_ref: str) -> str:
+    if not raw_ref.startswith("raw/"):
+        return ""
+    raw_path = ROOT / raw_ref
+    if not raw_path.exists():
+        return ""
+    return frontmatter(raw_path.read_text()).get("source", "").strip('"').strip("'")
 
 
 def raw_files() -> list[Path]:
@@ -165,7 +204,60 @@ def main():
     else:
         print("## [UNVERIFIED] in stable pages: none\n")
 
-    # 5. raw/ duplicate candidates
+    # 5. Provenance drift
+    provenance_issues = []
+    for page in pages:
+        if page.stem in ("index",):
+            continue
+        text = page.read_text()
+        sources = fm_list(text, "sources")
+        links = set(fm_list(text, "links"))
+
+        for source in sources:
+            if source.startswith("raw/") and not (ROOT / source).exists():
+                provenance_issues.append(
+                    f"{page.relative_to(ROOT)} — missing raw source: {source}"
+                )
+
+        if frontmatter(text).get("type") == "summary":
+            raw_sources = [source for source in sources if source.startswith("raw/")]
+            expected_urls = {
+                url for url in (raw_source_url(source) for source in raw_sources) if url
+            }
+            missing_urls = sorted(expected_urls - links)
+            if missing_urls:
+                provenance_issues.append(
+                    f"{page.relative_to(ROOT)} — missing links for raw source URLs: {', '.join(missing_urls)}"
+                )
+
+    if provenance_issues:
+        print(f"## Provenance drift ({len(provenance_issues)})")
+        for issue in provenance_issues:
+            print(f"  {issue}")
+        print()
+        issues += len(provenance_issues)
+    else:
+        print("## Provenance drift: none\n")
+
+    # 6. Template placeholders
+    placeholders = []
+    for page in pages:
+        if page.stem in ("index",):
+            continue
+        text = page.read_text()
+        if "<!--" in text:
+            placeholders.append(page)
+
+    if placeholders:
+        print(f"## Template placeholders ({len(placeholders)} pages)")
+        for page in placeholders:
+            print(f"  {page.relative_to(ROOT)}")
+        print()
+        issues += len(placeholders)
+    else:
+        print("## Template placeholders: none\n")
+
+    # 7. raw/ duplicate candidates
     dup_candidates = raw_duplicate_candidates(raw)
     exact_dupes = exact_raw_duplicates(raw)
     if dup_candidates:
