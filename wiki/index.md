@@ -114,9 +114,12 @@ The following concepts are useful follow-up pages for expanding the wiki:
 | [[summary-deer-flow]] | DeerFlow repository (bytedance, 2026) | [[agent-memory-systems]] |
 | [[summary-edgequake]] | EdgeQuake repository (raphaelmansuy, 2026) | [[graph-rag-systems]] |
 | [[summary-flashattention2]] | FlashAttention-2 paper (Dao, ICLR 2024) | [[gpu-memory-optimization]] |
+| [[summary-gpu-memory-math-for-llms-2026-edition]] | VRAM formula guide for running LLMs locally (2026) | [[gpu-memory-optimization]] |
 | [[summary-graph-memory]] | graph-memory repository (adoresever, 2026) | [[agent-memory-systems]] |
 | [[summary-karpathy-knowledge-base-thread]] | Karpathy thread on LLM knowledge bases (2026) | [[markdown-knowledge-bases]] |
 | [[summary-thread-by-lijigang]] | Thread on whether agent frameworks are necessary (2026) | [[ai-agents]] |
+| [[summary-thread-by-gittrend0x]] | GitHub trending agent projects analysis (2026) | [[ai-agents]] |
+| [[summary-thread-by-indigox]] | Anthropic diff tool: model behavioral alignment features (2026) | [[ai-agents]] |
 | [[summary-mem0]] | mem0 repository (mem0ai, 2026) | [[agent-memory-systems]] |
 | [[summary-memoryos-emnlp2025]] | MemoryOS paper (BAI-LAB, EMNLP 2025) | [[agent-memory-systems]] |
 | [[summary-mintlify-virtual-filesystem]] | Mintlify virtual filesystem writeup (2026) | [[markdown-knowledge-bases]] |
