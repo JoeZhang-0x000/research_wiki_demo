@@ -21,6 +21,7 @@ Files here represent primary inputs: papers, notes, transcripts, web captures, a
 - Adding new files (any format: `.md`, `.txt`, `.pdf`, `.html`)
 - Adding sidecar metadata files (e.g., `paper_xyz.meta.md`) that annotate an existing file without modifying it
 - Creating subdirectories for organization (e.g., `raw/hpc/`, `raw/agents/`)
+- Committing all of the above to git — `raw/` is fully tracked
 
 ---
 

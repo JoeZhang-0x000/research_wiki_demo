@@ -7,15 +7,15 @@ You are expected to read, write, and maintain a structured markdown knowledge ba
 
 ## Directory Semantics
 
-| Directory     | Purpose                                              | Mutability       |
-|---------------|------------------------------------------------------|------------------|
-| `raw/`        | Source materials (papers, notes, links, transcripts) | Append-only      |
-| `wiki/`       | Compiled, structured knowledge pages                 | Evolve via rules |
-| `output/`     | Query results and reports                            | Write/overwrite  |
-| `agent/`      | Pipeline scripts (ingest, compile, query, distill)   | Edit carefully   |
-| `skills/`     | Reusable skill scripts callable by any agent         | Extend freely    |
-| `schemas/`    | Markdown templates for wiki page types               | Stable           |
-| `.claude/commands/` | Claude Code slash commands (thin wrappers)     | Extend freely    |
+| Directory           | Purpose                                              | Mutability       |
+| ------------------- | ---------------------------------------------------- | ---------------- |
+| `raw/`              | Source materials (papers, notes, links, transcripts) | Append-only      |
+| `wiki/`             | Compiled, structured knowledge pages                 | Evolve via rules |
+| `output/`           | Query results and reports                            | Write/overwrite  |
+| `agent/`            | Pipeline scripts (ingest, compile, query, distill)   | Edit carefully   |
+| `skills/`           | Reusable skill scripts callable by any agent         | Extend freely    |
+| `schemas/`          | Markdown templates for wiki page types               | Stable           |
+| `.claude/commands/` | Claude Code slash commands (thin wrappers)           | Extend freely    |
 
 ---
 
@@ -87,16 +87,15 @@ Every claim marked `[UNVERIFIED]` must be resolved before a page is considered `
 
 ## Git Sync Rules
 
-**`raw/` is excluded from git** (see `.gitignore`). Source materials stay local only.
-`raw/*.meta.md` sidecar files ARE tracked — they record ingestion state without bloating the repo.
+**`raw/` is tracked in git.** All source files and sidecars are committed alongside wiki pages.
 
-**After every distill cycle that modifies `wiki/`, commit and push:**
-
-```bash
-git add wiki/ output/ raw/*.meta.md
-git commit -m "distill: <topic>"
-git push
-```
+**Primary workflow: `/digest`**
+When the user says "digest" or runs `/digest`, follow the steps in `.claude/commands/digest.md`:
+1. `python agent/ingest.py --new` — find new files
+2. Read each file, write wiki pages (summaries + concepts)
+3. Update `wiki/index.md`
+4. `python agent/lint.py` — fix issues
+5. `git add wiki/ raw/ && git commit -m "digest: <titles>" && git push`
 
 **After adding a skill:**
 ```bash

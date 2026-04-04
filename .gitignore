@@ -1,9 +1,3 @@
-# raw/ is excluded from git — source materials stay local only
-# Use raw/AGENTS.md to understand the structure; actual files are local
-raw/*
-!raw/AGENTS.md
-!raw/*.meta.md
-
 # Python
 __pycache__/
 *.py[cod]

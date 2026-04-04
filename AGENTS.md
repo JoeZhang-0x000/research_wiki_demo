@@ -118,16 +118,16 @@ python agent/lint.py            # check for orphans, broken links, empty section
 
 ## Git Sync Rules
 
-**After every distill cycle that modifies `wiki/`, you must commit and push.**
+**The primary workflow is `/digest` (Claude Code) or following the digest steps manually.**
+After every digest that modifies `wiki/`, commit and push.
 
-`raw/` is excluded from git (see `.gitignore`). It is local-only. Never try to commit files from `raw/` (except `raw/AGENTS.md` and `raw/*.meta.md` which are tracked).
+`raw/` is tracked in git. Source files, sidecar `.meta.md` files, and `raw/AGENTS.md` are all committed.
 
-### Commit convention after distillation
+### Commit convention after digest
 
 ```bash
-git add wiki/ output/
-git add raw/*.meta.md          # sidecar files ARE tracked
-git commit -m "distill: <short topic description>"
+git add wiki/ raw/
+git commit -m "digest: <comma-separated source titles>"
 git push
 ```
 
@@ -136,14 +136,6 @@ git push
 ```bash
 git add skills/ .claude/commands/
 git commit -m "skill: add <skill-name>"
-git push
-```
-
-### Commit convention after adding raw source + stub
-
-```bash
-git add raw/<file>.meta.md wiki/summaries/<stub>.md wiki/index.md
-git commit -m "ingest: add <source title>"
 git push
 ```
 

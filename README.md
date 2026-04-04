@@ -120,28 +120,25 @@ To add a skill: `/add-skill <name> <description>` or follow the template in `ski
 
 ---
 
-## Example Workflow
+## Typical Workflow
 
 ```bash
-# 1. Drop a paper into raw/
+# 1. Drop source files into raw/
 cp ~/Downloads/paper_megatron-2021.pdf raw/
+cp ~/notes/llm-serving-thoughts.md raw/
 
-# 2. Ingest it
-python agent/ingest.py --mark paper_megatron-2021.pdf
-
-# 3. Create a summary (with Claude Code)
-# /ingest paper_megatron-2021.pdf
-
-# 4. Query related concepts
-python agent/query.py "tensor parallelism"
-
-# 5. Distill
-python agent/distill.py output/tensor-parallelism-report.md
-
-# 6. Lint + push
-python agent/lint.py
-git add wiki/ output/ raw/*.meta.md && git commit -m "distill: tensor parallelism" && git push
+# 2. Run digest (Claude Code slash command)
+# /digest
+#
+# Claude will:
+#   - detect new files via `python agent/ingest.py --new`
+#   - read each file and write wiki/summaries/ + wiki/concepts/ pages
+#   - update wiki/index.md
+#   - run lint, fix issues
+#   - git add wiki/ raw/ && git commit -m "digest: ..." && git push
 ```
+
+That's it. One command handles the full loop.
 
 ---
 
