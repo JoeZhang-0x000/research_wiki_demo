@@ -6,6 +6,8 @@ created: YYYY-MM-DD
 updated: YYYY-MM-DD
 sources:
   - raw/<source-file> or https://...
+links:
+  - https://...   # original URL if clipped from web (Obsidian Clipper)
 tags: []
 ---
 

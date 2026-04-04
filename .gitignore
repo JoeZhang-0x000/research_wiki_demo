@@ -1,3 +1,6 @@
+# output/ is ephemeral scratch space — not committed
+output/
+
 # Python
 __pycache__/
 *.py[cod]

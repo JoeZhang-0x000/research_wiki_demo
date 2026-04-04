@@ -26,7 +26,7 @@ wiki/         Compiled knowledge pages. Structured. Evolve via rules only.
   concepts/   Atomic knowledge units (one concept per file)
   topics/     Broader topic overviews (aggregate multiple concepts)
   summaries/  Per-source summaries (one per raw file or paper)
-output/       Query results and generated reports. Writable/overwritable.
+output/       Ephemeral scratch space. Not committed to git. Use for temp notes only.
 agent/        Pipeline scripts. Edit with care.
 skills/       Reusable capability scripts. Extend freely. READ THIS FIRST.
 schemas/      Markdown templates. Treat as stable contracts.
@@ -70,6 +70,7 @@ To add a skill: create `skills/<name>.py`, add an entry to `skills/README.md`.
 - Inventing facts — use `[UNVERIFIED]` for uncertain claims
 - Stripping `[[links]]` from wiki pages without replacement
 - Using external databases, vector stores, or non-standard dependencies
+- **Writing to wiki/ without explicit user approval** — always ask first after any analysis or query
 
 ---
 
