@@ -14,7 +14,10 @@ Knowledge base covering: **High-Performance Computing**, **AI Infrastructure**, 
 
 | Topic | Description | Status |
 |-------|-------------|--------|
+| [[agent-memory-systems]] | Persistent memory layers that let agents retain and recall prior knowledge across sessions | draft |
+| [[graph-rag-systems]] | Retrieval systems that combine vector search with explicit graph structure | draft |
 | [[gpu-memory-optimization]] | Techniques for reducing GPU memory usage and improving bandwidth utilization | draft |
+| [[markdown-knowledge-bases]] | File-native knowledge workflows built from raw markdown sources, summaries, and indexes | draft |
 
 ---
 
@@ -27,7 +30,11 @@ This section collects the atomic knowledge units that topic and summary pages bu
 | Concept | One-line summary | Status |
 |---------|-----------------|--------|
 | [[flash-attention]] | IO-aware tiled attention that avoids materializing the N×N attention matrix | stable |
+| [[graph-rag]] | Retrieval-augmented generation that uses explicit graph structure during recall | draft |
 | [[hbm-bandwidth]] | GPU HBM data transfer rate — primary bottleneck for memory-bound kernels | draft |
+| [[markdown-knowledge-base]] | Linked markdown corpus that agents can compile, query, and maintain | draft |
+| [[persistent-agent-memory]] | Durable memory layer that preserves useful knowledge across agent sessions | draft |
+| [[virtual-filesystem-interface]] | Filesystem-shaped abstraction over indexed or virtualized knowledge stores | draft |
 
 ### Candidate Future Pages
 
@@ -45,7 +52,12 @@ The following concepts are useful follow-up pages for expanding the wiki:
 
 | Summary | Source | Topic |
 |---------|--------|-------|
+| [[summary-am-memory]] | am-memory repository (danielwanwx, 2026) | [[agent-memory-systems]] |
+| [[summary-edgequake]] | EdgeQuake repository (raphaelmansuy, 2026) | [[graph-rag-systems]] |
 | [[summary-flashattention2]] | FlashAttention-2 paper (Dao, ICLR 2024) | [[gpu-memory-optimization]] |
+| [[summary-graph-memory]] | graph-memory repository (adoresever, 2026) | [[agent-memory-systems]] |
+| [[summary-karpathy-knowledge-base-thread]] | Karpathy thread on LLM knowledge bases (2026) | [[markdown-knowledge-bases]] |
+| [[summary-mintlify-virtual-filesystem]] | Mintlify virtual filesystem writeup (2026) | [[markdown-knowledge-bases]] |
 
 ---
 
@@ -64,3 +76,15 @@ The following concepts are useful follow-up pages for expanding the wiki:
 - 2024-01-15 — [[hbm-bandwidth]] created (draft)
 - 2024-01-15 — [[gpu-memory-optimization]] created (draft)
 - 2024-01-15 — [[summary-flashattention2]] created (stable)
+- 2026-04-04 — [[agent-memory-systems]] created (draft)
+- 2026-04-04 — [[graph-rag-systems]] created (draft)
+- 2026-04-04 — [[markdown-knowledge-bases]] created (draft)
+- 2026-04-04 — [[persistent-agent-memory]] created (draft)
+- 2026-04-04 — [[markdown-knowledge-base]] created (draft)
+- 2026-04-04 — [[virtual-filesystem-interface]] created (draft)
+- 2026-04-04 — [[graph-rag]] created (draft)
+- 2026-04-04 — [[summary-mintlify-virtual-filesystem]] created (draft)
+- 2026-04-04 — [[summary-karpathy-knowledge-base-thread]] created (draft)
+- 2026-04-04 — [[summary-graph-memory]] created (draft)
+- 2026-04-04 — [[summary-am-memory]] created (draft)
+- 2026-04-04 — [[summary-edgequake]] created (draft)
