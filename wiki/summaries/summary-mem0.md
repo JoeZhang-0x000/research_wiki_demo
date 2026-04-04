@@ -5,7 +5,7 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/mem0aimem0 Universal memory layer for AI Agents.md
+  - raw/mem0ai-mem0-universal-memory-layer-for-ai-2026-04-04.md
   - https://github.com/mem0ai/mem0
   - https://arxiv.org/abs/2504.19413
 tags: []
@@ -21,7 +21,7 @@ tags: []
 | Author(s)    | Prateek Chhikara, Dev Khant, Saket Aryan, Taranjeet Singh, Deshraj Yadav |
 | Year         | 2025                                                        |
 | Venue        | arXiv (2504.19413)                                          |
-| Raw file     | `raw/mem0aimem0 Universal memory layer for AI Agents.md`   |
+| Raw file     | `raw/mem0ai-mem0-universal-memory-layer-for-ai-2026-04-04.md`   |
 
 ## Main Idea
 

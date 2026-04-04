@@ -5,7 +5,7 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/danielwanwxam-memory Persistent memory for Claude Code — SQLite-backed knowledge store with BM25+Vector search and MCP integration.md
+  - raw/danielwanwx-am-memory-persistent-memory-for-claude-code-2026-04-04.md
   - https://github.com/danielwanwx/am-memory
 tags: [ai-agents, memory, sqlite, claude-code]
 ---
@@ -20,7 +20,7 @@ tags: [ai-agents, memory, sqlite, claude-code]
 | Author(s) | danielwanwx |
 | Year | 2026 |
 | Venue | GitHub repository |
-| Raw file | `raw/danielwanwxam-memory Persistent memory for Claude Code — SQLite-backed knowledge store with BM25+Vector search and MCP integration.md` |
+| Raw file | `raw/danielwanwx-am-memory-persistent-memory-for-claude-code-2026-04-04.md` |
 
 ## Main Idea
 

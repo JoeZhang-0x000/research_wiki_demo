@@ -5,7 +5,7 @@ status: stable
 created: 2024-01-15
 updated: 2026-04-04
 sources:
-  - raw/paper_flashattention2-2023.md
+  - raw/paper-flashattention2-2023.md
   - https://arxiv.org/abs/2307.08691
 tags: [attention, cuda, memory-efficiency, kernels, iclr2024]
 ---
@@ -20,7 +20,7 @@ tags: [attention, cuda, memory-efficiency, kernels, iclr2024]
 | Author(s)   | Tri Dao                                            |
 | Year        | 2023 (ICLR 2024)                                  |
 | Venue       | ICLR 2024                                          |
-| Raw file    | `raw/paper_flashattention2-2023.md`                |
+| Raw file    | `raw/paper-flashattention2-2023.md`                |
 
 ## Main Idea
 

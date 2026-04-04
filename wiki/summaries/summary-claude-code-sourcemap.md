@@ -5,7 +5,7 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/leeyeelclaude-code-sourcemap claude-code full original source code from source maps.md
+  - raw/leeyeel-claude-code-sourcemap-claude-code-full-original-source-2026-04-04.md
   - https://github.com/leeyeel/claude-code-sourcemap
 tags: []
 ---
@@ -20,7 +20,7 @@ tags: []
 | Author(s)    | leeyeel (forked from original Claude Code); original by Anthropic          |
 | Year         | 2025                                                                        |
 | Venue        | GitHub (source map extraction project)                                     |
-| Raw file     | `raw/leeyeelclaude-code-sourcemap claude-code full original source code from source maps.md` |
+| Raw file     | `raw/leeyeel-claude-code-sourcemap-claude-code-full-original-source-2026-04-04.md` |
 
 ## Main Idea
 

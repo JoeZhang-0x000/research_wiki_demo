@@ -5,7 +5,7 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/BAI-LABMemoryOS EMNLP 2025 Oral MemoryOS is designed to provide a memory operating system for personalized AI agents..md
+  - raw/bai-lab-memoryos-emnlp-oral-memoryos-is-2026-04-04.md
   - https://arxiv.org/abs/2506.06326
 tags: []
 ---
@@ -20,7 +20,7 @@ tags: []
 | Author(s)    | BAI-LAB (Beijing AI Lab)       |
 | Year         | 2025                           |
 | Venue        | EMNLP 2025 (Oral)             |
-| Raw file     | `raw/BAI-LABMemoryOS EMNLP 2025 Oral MemoryOS is designed to provide a memory operating system for personalized AI agents..md` |
+| Raw file     | `raw/bai-lab-memoryos-emnlp-oral-memoryos-is-2026-04-04.md` |
 
 ## Main Idea
 

@@ -5,7 +5,7 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/volcengineOpenViking OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradig.md
+  - raw/volcengine-openviking-openviking-is-an-open-source-2026-04-04.md
   - https://github.com/volcengine/OpenViking
   - https://www.openviking.ai/
 tags: []
@@ -21,7 +21,7 @@ tags: []
 | Author(s)    | Volcengine (ByteDance)                                                      |
 | Year         | 2025–2026                                                                   |
 | Venue        | GitHub (open source); AGPLv3 (main), Apache 2.0 (CLI, examples)           |
-| Raw file     | `raw/volcengineOpenViking OpenViking is an open-source context database...` (x2 duplicates) |
+| Raw file     | `raw/volcengine-openviking-openviking-is-an-open-source-2026-04-04.md` |
 
 ## Main Idea
 

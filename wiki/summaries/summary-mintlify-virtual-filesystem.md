@@ -5,7 +5,7 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/Building a Virtual Filesystem for Mintlify's AI Assistant.md
+  - raw/building-a-virtual-filesystem-for-mintlifys-2026-04-03.md
   - https://www.mintlify.com/blog/how-we-built-a-virtual-filesystem-for-our-assistant
 tags: [ai-agents, retrieval, filesystem, docs]
 ---
@@ -20,7 +20,7 @@ tags: [ai-agents, retrieval, filesystem, docs]
 | Author(s) | Densumesh |
 | Year | 2026 |
 | Venue | Mintlify blog / X thread |
-| Raw file | `raw/Building a Virtual Filesystem for Mintlify's AI Assistant.md` |
+| Raw file | `raw/building-a-virtual-filesystem-for-mintlifys-2026-04-03.md` |
 
 ## Main Idea
 

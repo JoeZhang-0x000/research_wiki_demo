@@ -5,7 +5,7 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/anomalycoopencode The open source coding agent..md
+  - raw/anomalyco-opencode-the-open-source-coding-2026-04-04.md
   - https://github.com/anomalyco/opencode
   - https://opencode.ai/
 tags: []
@@ -21,7 +21,7 @@ tags: []
 | Author(s)    | AnomalyCo                                                   |
 | Year         | 2025                                                        |
 | Venue        | GitHub (open source)                                        |
-| Raw file     | `raw/anomalycoopencode The open source coding agent..md`   |
+| Raw file     | `raw/anomalyco-opencode-the-open-source-coding-2026-04-04.md`   |
 
 ## Main Idea
 

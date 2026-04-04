@@ -5,7 +5,7 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/Thread by @karpathy.md
+  - raw/thread-by-karpathy-2026-04-03.md
   - https://x.com/karpathy/status/2039805659525644595
 tags: [ai-agents, markdown, obsidian, workflows]
 ---
@@ -20,7 +20,7 @@ tags: [ai-agents, markdown, obsidian, workflows]
 | Author(s) | Andrej Karpathy |
 | Year | 2026 |
 | Venue | X thread |
-| Raw file | `raw/Thread by @karpathy.md` |
+| Raw file | `raw/thread-by-karpathy-2026-04-03.md` |
 
 ## Main Idea
 

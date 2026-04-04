@@ -5,7 +5,7 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/Shichun-LiuAgent-Memory-Paper-List The paper list of "Memory in the Age of AI Agents A Survey".md
+  - raw/shichun-liu-agent-memory-paper-list-the-paper-list-of-memory-2026-04-04.md
   - https://arxiv.org/abs/2512.13564
 tags: []
 ---
@@ -20,7 +20,7 @@ tags: []
 | Author(s)    | Yuyang Hu, Shichun Liu, Yanwei Yue, et al. (large author list)                |
 | Year         | 2025                                                                            |
 | Venue        | arXiv (2512.13564); Huggingface Daily Paper #1 on 2025-12-16                  |
-| Raw file     | `raw/Shichun-LiuAgent-Memory-Paper-List The paper list of "Memory in the Age of AI Agents A Survey".md` |
+| Raw file     | `raw/shichun-liu-agent-memory-paper-list-the-paper-list-of-memory-2026-04-04.md` |
 
 ## Main Idea
 

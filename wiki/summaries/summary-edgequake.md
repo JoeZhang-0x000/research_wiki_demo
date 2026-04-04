@@ -5,7 +5,7 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/raphaelmansuyedgequake High-performance GraphRAG inspired from LightRag written in Rust.md
+  - raw/raphaelmansuy-edgequake-high-performance-graphrag-inspired-from-2026-04-04.md
   - https://github.com/raphaelmansuy/edgequake
 tags: [ai-infra, graph-rag, rust, retrieval]
 ---
@@ -20,7 +20,7 @@ tags: [ai-infra, graph-rag, rust, retrieval]
 | Author(s) | raphaelmansuy |
 | Year | 2026 |
 | Venue | GitHub repository |
-| Raw file | `raw/raphaelmansuyedgequake High-performance GraphRAG inspired from LightRag written in Rust.md` |
+| Raw file | `raw/raphaelmansuy-edgequake-high-performance-graphrag-inspired-from-2026-04-04.md` |
 
 ## Main Idea
 

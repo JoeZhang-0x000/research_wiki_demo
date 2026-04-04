@@ -5,7 +5,7 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/adoresevergraph-memory Openclaw记忆插件Knowledge Graph + Memory；Knowledge Graph Context Engine for OpenClaw — extracts structured triples from conversations, compresses context 75%, enables cross-session experience reuse.md
+  - raw/adoresever-graph-memory-graph-graph-2026-04-04.md
   - https://github.com/adoresever/graph-memory
 tags: [ai-agents, memory, knowledge-graphs, openclaw]
 ---
@@ -20,7 +20,7 @@ tags: [ai-agents, memory, knowledge-graphs, openclaw]
 | Author(s) | adoresever |
 | Year | 2026 |
 | Venue | GitHub repository |
-| Raw file | `raw/adoresevergraph-memory Openclaw记忆插件Knowledge Graph + Memory；Knowledge Graph Context Engine for OpenClaw — extracts structured triples from conversations, compresses context 75%, enables cross-session experience reuse.md` |
+| Raw file | `raw/adoresever-graph-memory-graph-graph-2026-04-04.md` |
 
 ## Main Idea
 

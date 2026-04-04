@@ -5,7 +5,7 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/bytedancedeer-flow An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minute.md
+  - raw/bytedance-deer-flow-an-open-source-long-horizon-2026-04-04.md
   - https://github.com/bytedance/deer-flow
 tags: []
 ---
@@ -20,7 +20,7 @@ tags: []
 | Author(s)    | ByteDance (Daniel Walnut, Henry Li as key contributors)                                       |
 | Year         | 2025 (v1); 2026 (v2.0 ground-up rewrite)                                                   |
 | Venue        | GitHub Trending #1 (Feb 28, 2026)                                                            |
-| Raw file     | `raw/bytedancedeer-flow An open-source long-horizon SuperAgent harness...`                   |
+| Raw file     | `raw/bytedance-deer-flow-an-open-source-long-horizon-2026-04-04.md` |
 
 ## Main Idea
 

@@ -5,7 +5,7 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/code-yeongyuoh-my-openagent omo; the best agent harness - previously oh-my-opencode.md
+  - raw/code-yeongyu-oh-my-openagent-omo-the-best-agent-harness-2026-04-04.md
   - https://github.com/code-yeongyu/oh-my-openagent
 tags: []
 ---
@@ -20,7 +20,7 @@ tags: []
 | Author(s)    | code-yeongyu (yeon gyu kim)                                                 |
 | Year         | 2025–2026                                                                   |
 | Venue        | GitHub (open source plugin for OpenCode)                                   |
-| Raw file     | `raw/code-yeongyuoh-my-openagent omo; the best agent harness...`           |
+| Raw file     | `raw/code-yeongyu-oh-my-openagent-omo-the-best-agent-harness-2026-04-04.md` |
 
 ## Main Idea
 

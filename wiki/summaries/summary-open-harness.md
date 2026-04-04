@@ -5,7 +5,7 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/MaxGfelleropen-harness A code-first, composable SDK to build powerful AI agents.md
+  - raw/maxgfeller-open-harness-a-code-first-composable-sdk-2026-04-04.md
   - https://github.com/MaxGfeller/open-harness
 tags: []
 ---
@@ -20,7 +20,7 @@ tags: []
 | Author(s)    | MaxGfeller                                                  |
 | Year         | 2025                                                        |
 | Venue        | GitHub (open source)                                        |
-| Raw file     | `raw/MaxGfelleropen-harness A code-first, composable SDK to build powerful AI agents.md` |
+| Raw file     | `raw/maxgfeller-open-harness-a-code-first-composable-sdk-2026-04-04.md` |
 
 ## Main Idea
 
