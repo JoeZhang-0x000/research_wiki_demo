@@ -45,7 +45,12 @@ This section collects the atomic knowledge units that topic and summary pages bu
 
 | Concept | One-line summary | Status |
 |---------|-----------------|--------|
+| [[agent-frameworks]] | Runtime architectures combining LLM with tools, state, and execution policies | draft |
 | [[agent-harness]] | Runtime layer that combines model, tools, state, and execution policy into an agent | draft |
+| [[closed-loop-control]] | Control architecture where agents continuously observe and update based on feedback | draft |
+| [[meta-harness]] | Harness that optimizes other harnesses via full-history filesystem access | draft |
+| [[model-harness]] | Evaluation scaffolding (prompting, tools, context) surrounding a fixed LLM | draft |
+| [[terminalbench]] | Benchmark for agentic coding tasks in terminal/shell environments | draft |
 | [[claude-code]] | Terminal-native coding agent used as a reference point by several open-source projects | draft |
 | [[context-database]] | Context store built around agent browseability rather than flat retrieval only | draft |
 | [[discipline-agents]] | Specialized agent roles used inside a coordinated multi-agent workflow | draft |
@@ -111,6 +116,7 @@ The following concepts are useful follow-up pages for expanding the wiki:
 | [[summary-flashattention2]] | FlashAttention-2 paper (Dao, ICLR 2024) | [[gpu-memory-optimization]] |
 | [[summary-graph-memory]] | graph-memory repository (adoresever, 2026) | [[agent-memory-systems]] |
 | [[summary-karpathy-knowledge-base-thread]] | Karpathy thread on LLM knowledge bases (2026) | [[markdown-knowledge-bases]] |
+| [[summary-thread-by-lijigang]] | Thread on whether agent frameworks are necessary (2026) | [[ai-agents]] |
 | [[summary-mem0]] | mem0 repository (mem0ai, 2026) | [[agent-memory-systems]] |
 | [[summary-memoryos-emnlp2025]] | MemoryOS paper (BAI-LAB, EMNLP 2025) | [[agent-memory-systems]] |
 | [[summary-mintlify-virtual-filesystem]] | Mintlify virtual filesystem writeup (2026) | [[markdown-knowledge-bases]] |
@@ -118,8 +124,10 @@ The following concepts are useful follow-up pages for expanding the wiki:
 | [[summary-open-harness]] | open-harness repository (MaxGfeller, 2026) | [[agent-memory-systems]] |
 | [[summary-opencode]] | opencode repository (anomalyco, 2026) | [[agent-memory-systems]] |
 | [[summary-openviking]] | OpenViking repository (volcengine, 2026) | [[agent-memory-systems]] |
+| [[summary-thread-by-omarsar0]] | Stanford/MIT paper on Meta-Harness automated harness engineering (2026) | [[ai-agents]] |
 | [[summary-claude-code-hooks]] | Claude Code hooks thread (zodchiii, 2026) | [[coding-agents]] |
 | [[summary-anthropic-diff-tool]] | Anthropic model diffing research (2026) | [[ai-agents]] |
+| [[summary-thread-by-yoonholeee]] | Meta-Harness author announcement thread (2026) | [[ai-agents]] |
 | [[summary-perplexica]] | Perplexica search engine (BunsDev, 2026) | [[ai-agents]] |
 | [[summary-nvidia-llm-router]] | NVIDIA LLM Router blueprint (2026) | [[ai-agents]] |
 
