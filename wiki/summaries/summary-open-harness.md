@@ -6,7 +6,9 @@ created: 2026-04-04
 updated: 2026-04-04
 sources:
   - raw/maxgfeller-open-harness-a-code-first-composable-sdk-2026-04-04.md
-  - https://github.com/MaxGfeller/open-harness
+  - "https://github.com/MaxGfeller/open-harness"
+links:
+  - "https://github.com/MaxGfeller/open-harness"
 tags: []
 ---
 

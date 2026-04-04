@@ -5,8 +5,8 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/mem0aimem0 Universal memory layer for AI Agents.md
-  - raw/danielwanwxam-memory Persistent memory for Claude Code — SQLite-backed knowledge store with BM25+Vector search and MCP integration.md
+  - raw/mem0ai-mem0-universal-memory-layer-for-ai-2026-04-04.md
+  - raw/danielwanwx-am-memory-persistent-memory-for-claude-code-2026-04-04.md
 links: []
 tags: [ai-agents, retrieval, memory]
 ---
@@ -45,4 +45,3 @@ Implementations typically combine lexical matching, vector similarity, filters s
 ## Open Questions
 
 - What hybrid retrieval strategy best balances speed, faithfulness, and personalization?
-

@@ -6,7 +6,9 @@ created: 2026-04-04
 updated: 2026-04-04
 sources:
   - raw/leeyeel-claude-code-sourcemap-claude-code-full-original-source-2026-04-04.md
-  - https://github.com/leeyeel/claude-code-sourcemap
+  - "https://github.com/leeyeel/claude-code-sourcemap"
+links:
+  - "https://github.com/leeyeel/claude-code-sourcemap"
 tags: []
 ---
 

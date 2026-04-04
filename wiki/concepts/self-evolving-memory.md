@@ -5,8 +5,8 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/volcengineOpenViking OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradig.md
-  - raw/BAI-LABMemoryOS EMNLP 2025 Oral MemoryOS is designed to provide a memory operating system for personalized AI agents..md
+  - raw/volcengine-openviking-openviking-is-an-open-source-2026-04-04.md
+  - raw/bai-lab-memoryos-emnlp-oral-memoryos-is-2026-04-04.md
 links: []
 tags: [memory, ai-agents, updating]
 ---
@@ -44,4 +44,3 @@ The sources describe automated updating of user profiles, session-derived summar
 ## Open Questions
 
 - What rollback or audit model is sufficient for self-updating agent memory?
-

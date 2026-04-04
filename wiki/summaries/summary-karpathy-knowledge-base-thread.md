@@ -6,7 +6,9 @@ created: 2026-04-04
 updated: 2026-04-04
 sources:
   - raw/thread-by-karpathy-2026-04-03.md
-  - https://x.com/karpathy/status/2039805659525644595
+  - "https://x.com/karpathy/status/2039805659525644595"
+links:
+  - "https://x.com/karpathy/status/2039805659525644595"
 tags: [ai-agents, markdown, obsidian, workflows]
 ---
 

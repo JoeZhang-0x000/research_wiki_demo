@@ -6,7 +6,9 @@ created: 2026-04-04
 updated: 2026-04-04
 sources:
   - raw/code-yeongyu-oh-my-openagent-omo-the-best-agent-harness-2026-04-04.md
-  - https://github.com/code-yeongyu/oh-my-openagent
+  - "https://github.com/code-yeongyu/oh-my-openagent"
+links:
+  - "https://github.com/code-yeongyu/oh-my-openagent"
 tags: []
 ---
 

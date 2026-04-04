@@ -5,9 +5,9 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/paper_flashattention2-2023.md
-  - raw/BAI-LABMemoryOS EMNLP 2025 Oral MemoryOS is designed to provide a memory operating system for personalized AI agents..md
-  - raw/raphaelmansuyedgequake High-performance GraphRAG inspired from LightRag written in Rust.md
+  - raw/paper-flashattention2-2023.md
+  - raw/bai-lab-memoryos-emnlp-oral-memoryos-is-2026-04-04.md
+  - raw/raphaelmansuy-edgequake-high-performance-graphrag-inspired-from-2026-04-04.md
 links: []
 tags: [hpc, ai-infra, systems]
 ---
@@ -65,4 +65,3 @@ Systems like MemoryOS and EdgeQuake pursue performance through backend engineeri
 - [[gpu-memory-optimization]]
 - [[graph-rag-systems]]
 - [[memory-management]]
-

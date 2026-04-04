@@ -5,8 +5,8 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/MaxGfelleropen-harness A code-first, composable SDK to build powerful AI agents.md
-  - raw/danielwanwxam-memory Persistent memory for Claude Code — SQLite-backed knowledge store with BM25+Vector search and MCP integration.md
+  - raw/maxgfeller-open-harness-a-code-first-composable-sdk-2026-04-04.md
+  - raw/danielwanwx-am-memory-persistent-memory-for-claude-code-2026-04-04.md
 links: []
 tags: [ai-agents, sessions, runtime]
 ---
@@ -45,4 +45,3 @@ Typical session layers keep turn history, trigger compaction as context grows, a
 ## Open Questions
 
 - What session boundary best matches real user tasks in coding and research workflows?
-

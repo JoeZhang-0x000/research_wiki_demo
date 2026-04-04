@@ -5,7 +5,7 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/Shichun-LiuAgent-Memory-Paper-List The paper list of "Memory in the Age of AI Agents A Survey".md
+  - raw/shichun-liu-agent-memory-paper-list-the-paper-list-of-memory-2026-04-04.md
 links: []
 tags: [ai-agents, memory]
 ---
@@ -44,4 +44,3 @@ Experiential memory is usually formed by extracting reusable patterns from conve
 ## Open Questions
 
 - What is the right unit of storage for procedural knowledge: trace, summary, or executable skill?
-

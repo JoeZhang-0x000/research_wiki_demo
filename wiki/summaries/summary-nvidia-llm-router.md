@@ -6,7 +6,9 @@ created: 2026-04-04
 updated: 2026-04-04
 sources:
   - raw/nvidia-ai-blueprints-llm-router-route-llm-requests-to-the-2026-04-04.md
-  - https://github.com/NVIDIA-AI-Blueprints/llm-router
+  - "https://github.com/NVIDIA-AI-Blueprints/llm-router"
+links:
+  - "https://github.com/NVIDIA-AI-Blueprints/llm-router"
 tags: []
 ---
 

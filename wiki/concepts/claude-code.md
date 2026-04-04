@@ -5,7 +5,7 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/leeyeelclaude-code-sourcemap claude-code full original source code from source maps.md
+  - raw/leeyeel-claude-code-sourcemap-claude-code-full-original-source-2026-04-04.md
 links: []
 tags: [ai-agents, coding, terminal]
 ---
@@ -43,4 +43,3 @@ The reverse-engineered source snapshot shows a runtime built around code search,
 ## Open Questions
 
 - Which parts of the older extracted implementation still reflect current product behavior? [UNVERIFIED]
-

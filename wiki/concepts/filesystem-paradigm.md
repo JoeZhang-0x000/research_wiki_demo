@@ -5,8 +5,8 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/volcengineOpenViking OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradig.md
-  - raw/Building a Virtual Filesystem for Mintlify's AI Assistant.md
+  - raw/volcengine-openviking-openviking-is-an-open-source-2026-04-04.md
+  - raw/building-a-virtual-filesystem-for-mintlifys-2026-04-03.md
 links: []
 tags: [ai-agents, filesystem, context]
 ---
@@ -44,4 +44,3 @@ Systems expose virtual or physical files, directories, and sometimes URIs so the
 ## Open Questions
 
 - What makes a virtual filesystem feel native enough for agents to rely on it?
-

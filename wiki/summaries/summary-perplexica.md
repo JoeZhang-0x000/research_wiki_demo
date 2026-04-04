@@ -6,7 +6,9 @@ created: 2026-04-04
 updated: 2026-04-04
 sources:
   - raw/bunsdev-perplexica-search-engine-ai-perplexica-is-an-ai-powered-2026-04-04.md
-  - https://github.com/BunsDev/Perplexica-Search-Engine-AI
+  - "https://github.com/BunsDev/Perplexica-Search-Engine-AI"
+links:
+  - "https://github.com/BunsDev/Perplexica-Search-Engine-AI"
 tags: []
 ---
 

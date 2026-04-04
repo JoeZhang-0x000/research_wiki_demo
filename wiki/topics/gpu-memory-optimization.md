@@ -5,7 +5,8 @@ status: draft
 created: 2024-01-15
 updated: 2026-04-04
 sources:
-  - raw/paper_flashattention2-2023.md
+  - raw/paper-flashattention2-2023.md
+links: []
 tags: [hpc, gpu, memory, ai-infra, optimization]
 ---
 

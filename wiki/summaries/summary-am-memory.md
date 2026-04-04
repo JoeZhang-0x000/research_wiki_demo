@@ -6,7 +6,9 @@ created: 2026-04-04
 updated: 2026-04-04
 sources:
   - raw/danielwanwx-am-memory-persistent-memory-for-claude-code-2026-04-04.md
-  - https://github.com/danielwanwx/am-memory
+  - "https://github.com/danielwanwx/am-memory"
+links:
+  - "https://github.com/danielwanwx/am-memory"
 tags: [ai-agents, memory, sqlite, claude-code]
 ---
 

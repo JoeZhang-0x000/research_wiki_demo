@@ -5,9 +5,9 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/Shichun-LiuAgent-Memory-Paper-List The paper list of "Memory in the Age of AI Agents A Survey".md
-  - raw/bytedancedeer-flow An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minute.md
-  - raw/Building a Virtual Filesystem for Mintlify's AI Assistant.md
+  - raw/shichun-liu-agent-memory-paper-list-the-paper-list-of-memory-2026-04-04.md
+  - raw/bytedance-deer-flow-an-open-source-long-horizon-2026-04-04.md
+  - raw/building-a-virtual-filesystem-for-mintlifys-2026-04-03.md
 links: []
 tags: [ai-agents, context, retrieval, prompting]
 ---
@@ -65,4 +65,3 @@ Instead of only returning top-k chunks, the runtime exposes knowledge through di
 - [[ai-agents]]
 - [[memory-management]]
 - [[markdown-knowledge-bases]]
-

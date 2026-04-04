@@ -5,7 +5,7 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/anomalycoopencode The open source coding agent..md
+  - raw/anomalyco-opencode-the-open-source-coding-2026-04-04.md
 links: []
 tags: [ai-agents, models, portability]
 ---
@@ -42,4 +42,3 @@ The harness uses an abstraction layer or an OpenAI-compatible interface so the s
 ## Open Questions
 
 - Which agent APIs stay portable once tool use and streaming semantics differ by provider?
-

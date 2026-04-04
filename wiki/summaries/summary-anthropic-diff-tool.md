@@ -6,8 +6,10 @@ created: 2026-04-04
 updated: 2026-04-04
 sources:
   - raw/a-diff-tool-for-ai-finding-behavioral-2026-04-04.md
-  - https://www.anthropic.com/research/diff-tool
-  - https://arxiv.org/abs/2602.11729
+  - "https://www.anthropic.com/research/diff-tool"
+  - "https://arxiv.org/abs/2602.11729"
+links:
+  - "https://www.anthropic.com/research/diff-tool"
 tags: []
 ---
 

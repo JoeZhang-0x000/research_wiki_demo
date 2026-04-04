@@ -5,7 +5,7 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/volcengineOpenViking OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradig.md
+  - raw/volcengine-openviking-openviking-is-an-open-source-2026-04-04.md
 links: []
 tags: [context, hierarchy, ai-agents]
 ---
@@ -42,4 +42,3 @@ The OpenViking material describes L0/L1/L2 levels, where higher levels summarize
 ## Open Questions
 
 - What is the best policy for promoting or compressing content across the three levels?
-

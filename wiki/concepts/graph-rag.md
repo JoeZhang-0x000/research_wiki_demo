@@ -5,8 +5,9 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/raphaelmansuyedgequake High-performance GraphRAG inspired from LightRag written in Rust.md
-  - raw/adoresevergraph-memory Openclaw记忆插件Knowledge Graph + Memory；Knowledge Graph Context Engine for OpenClaw — extracts structured triples from conversations, compresses context 75%, enables cross-session experience reuse.md
+  - raw/raphaelmansuy-edgequake-high-performance-graphrag-inspired-from-2026-04-04.md
+  - raw/adoresever-graph-memory-graph-graph-2026-04-04.md
+links: []
 tags: [ai-infra, ai-agents, retrieval, knowledge-graphs, rag]
 ---
 

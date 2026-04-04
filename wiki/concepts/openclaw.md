@@ -5,8 +5,8 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/volcengineOpenViking OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradig.md
-  - raw/adoresevergraph-memory Openclaw记忆插件Knowledge Graph + Memory；Knowledge Graph Context Engine for OpenClaw — extracts structured triples from conversations, compresses context 75%, enables cross-session experience reuse.md
+  - raw/volcengine-openviking-openviking-is-an-open-source-2026-04-04.md
+  - raw/adoresever-graph-memory-graph-graph-2026-04-04.md
 links: []
 tags: [ai-agents, harness, open-source]
 ---
@@ -44,4 +44,3 @@ The sources treat OpenClaw primarily as the outer agent runtime while plugins pr
 ## Open Questions
 
 - Which OpenClaw runtime assumptions shape the performance of its memory plugins?
-

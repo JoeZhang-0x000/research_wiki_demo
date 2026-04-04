@@ -5,9 +5,9 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/MaxGfelleropen-harness A code-first, composable SDK to build powerful AI agents.md
-  - raw/anomalycoopencode The open source coding agent..md
-  - raw/bytedancedeer-flow An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minute.md
+  - raw/maxgfeller-open-harness-a-code-first-composable-sdk-2026-04-04.md
+  - raw/anomalyco-opencode-the-open-source-coding-2026-04-04.md
+  - raw/bytedance-deer-flow-an-open-source-long-horizon-2026-04-04.md
 links: []
 tags: [ai-agents, runtime, harness]
 ---
@@ -53,4 +53,3 @@ Typical harness responsibilities include:
 
 - Which responsibilities should stay in the harness versus external skills or agents?
 - How opinionated can a harness become before it stops being reusable?
-

@@ -5,8 +5,8 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/Shichun-LiuAgent-Memory-Paper-List The paper list of "Memory in the Age of AI Agents A Survey".md
-  - raw/mem0aimem0 Universal memory layer for AI Agents.md
+  - raw/shichun-liu-agent-memory-paper-list-the-paper-list-of-memory-2026-04-04.md
+  - raw/mem0ai-mem0-universal-memory-layer-for-ai-2026-04-04.md
 links: []
 tags: [ai-agents, memory]
 ---
@@ -45,4 +45,3 @@ Facts are extracted from interactions or documents, normalized into a durable re
 ## Open Questions
 
 - How should agents represent uncertainty when a remembered fact is old or weakly sourced?
-

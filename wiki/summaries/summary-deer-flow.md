@@ -6,7 +6,9 @@ created: 2026-04-04
 updated: 2026-04-04
 sources:
   - raw/bytedance-deer-flow-an-open-source-long-horizon-2026-04-04.md
-  - https://github.com/bytedance/deer-flow
+  - "https://github.com/bytedance/deer-flow"
+links:
+  - "https://github.com/bytedance/deer-flow"
 tags: []
 ---
 

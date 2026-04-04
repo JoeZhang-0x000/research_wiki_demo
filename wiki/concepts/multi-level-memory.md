@@ -5,7 +5,8 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/mem0ai/mem0 Universal memory layer for AI Agents.md
+  - raw/mem0ai-mem0-universal-memory-layer-for-ai-2026-04-04.md
+links: []
 tags: [ai-agents, memory, architecture]
 ---
 

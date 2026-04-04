@@ -5,7 +5,7 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/code-yeongyuoh-my-openagent omo; the best agent harness - previously oh-my-opencode.md
+  - raw/code-yeongyu-oh-my-openagent-omo-the-best-agent-harness-2026-04-04.md
 links: []
 tags: [ai-agents, orchestration, execution]
 ---
@@ -42,4 +42,3 @@ The source describes one command that activates all agents and uses continuation
 ## Open Questions
 
 - What stopping criteria keep persistent execution from becoming wasteful thrashing?
-

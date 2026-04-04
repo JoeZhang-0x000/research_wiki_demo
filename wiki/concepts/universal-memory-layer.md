@@ -5,7 +5,7 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/mem0aimem0 Universal memory layer for AI Agents.md
+  - raw/mem0ai-mem0-universal-memory-layer-for-ai-2026-04-04.md
 links: []
 tags: [ai-agents, memory]
 ---
@@ -42,4 +42,3 @@ The memory layer accepts new messages or facts, stores them with identity metada
 ## Open Questions
 
 - How universal can the abstraction be before domain-specific memory needs leak through?
-

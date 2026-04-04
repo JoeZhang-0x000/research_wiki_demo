@@ -5,7 +5,7 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/MaxGfelleropen-harness A code-first, composable SDK to build powerful AI agents.md
+  - raw/maxgfeller-open-harness-a-code-first-composable-sdk-2026-04-04.md
 links: []
 tags: [ai-agents, architecture, composition]
 ---
@@ -41,4 +41,3 @@ An agent runner is wrapped by one middleware layer after another, with each laye
 ## Open Questions
 
 - Which agent runtime concerns should be middleware and which should remain first-class primitives?
-

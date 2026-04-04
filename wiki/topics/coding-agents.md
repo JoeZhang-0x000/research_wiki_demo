@@ -5,9 +5,9 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/anomalycoopencode The open source coding agent..md
-  - raw/leeyeelclaude-code-sourcemap claude-code full original source code from source maps.md
-  - raw/code-yeongyuoh-my-openagent omo; the best agent harness - previously oh-my-opencode.md
+  - raw/anomalyco-opencode-the-open-source-coding-2026-04-04.md
+  - raw/leeyeel-claude-code-sourcemap-claude-code-full-original-source-2026-04-04.md
+  - raw/code-yeongyu-oh-my-openagent-omo-the-best-agent-harness-2026-04-04.md
 links: []
 tags: [ai-agents, coding, developer-tools]
 ---
@@ -65,4 +65,3 @@ OmO and DeerFlow push beyond a single agent by introducing specialized roles, de
 - [[ai-agents]]
 - [[context-engineering]]
 - [[memory-management]]
-

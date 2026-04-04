@@ -6,8 +6,10 @@ created: 2026-04-04
 updated: 2026-04-04
 sources:
   - raw/mem0ai-mem0-universal-memory-layer-for-ai-2026-04-04.md
-  - https://github.com/mem0ai/mem0
-  - https://arxiv.org/abs/2504.19413
+  - "https://github.com/mem0ai/mem0"
+  - "https://arxiv.org/abs/2504.19413"
+links:
+  - "https://github.com/mem0ai/mem0"
 tags: []
 ---
 

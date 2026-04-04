@@ -6,7 +6,9 @@ created: 2026-04-04
 updated: 2026-04-04
 sources:
   - raw/shichun-liu-agent-memory-paper-list-the-paper-list-of-memory-2026-04-04.md
-  - https://arxiv.org/abs/2512.13564
+  - "https://arxiv.org/abs/2512.13564"
+links:
+  - "https://github.com/Shichun-Liu/Agent-Memory-Paper-List"
 tags: []
 ---
 

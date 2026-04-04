@@ -6,8 +6,10 @@ created: 2026-04-04
 updated: 2026-04-04
 sources:
   - raw/volcengine-openviking-openviking-is-an-open-source-2026-04-04.md
-  - https://github.com/volcengine/OpenViking
-  - https://www.openviking.ai/
+  - "https://github.com/volcengine/OpenViking"
+  - "https://www.openviking.ai/"
+links:
+  - "https://github.com/volcengine/OpenViking"
 tags: []
 ---
 

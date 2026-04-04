@@ -6,7 +6,9 @@ created: 2026-04-04
 updated: 2026-04-04
 sources:
   - raw/raphaelmansuy-edgequake-high-performance-graphrag-inspired-from-2026-04-04.md
-  - https://github.com/raphaelmansuy/edgequake
+  - "https://github.com/raphaelmansuy/edgequake"
+links:
+  - "https://github.com/raphaelmansuy/edgequake"
 tags: [ai-infra, graph-rag, rust, retrieval]
 ---
 

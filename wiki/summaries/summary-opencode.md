@@ -6,8 +6,10 @@ created: 2026-04-04
 updated: 2026-04-04
 sources:
   - raw/anomalyco-opencode-the-open-source-coding-2026-04-04.md
-  - https://github.com/anomalyco/opencode
-  - https://opencode.ai/
+  - "https://github.com/anomalyco/opencode"
+  - "https://opencode.ai/"
+links:
+  - "https://github.com/anomalyco/opencode"
 tags: []
 ---
 

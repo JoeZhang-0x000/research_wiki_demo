@@ -5,8 +5,9 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/Thread by @karpathy.md
-  - raw/Building a Virtual Filesystem for Mintlify's AI Assistant.md
+  - raw/thread-by-karpathy-2026-04-03.md
+  - raw/building-a-virtual-filesystem-for-mintlifys-2026-04-03.md
+links: []
 tags: [ai-agents, markdown, obsidian, knowledge-management]
 ---
 

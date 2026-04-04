@@ -5,7 +5,7 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/code-yeongyuoh-my-openagent omo; the best agent harness - previously oh-my-opencode.md
+  - raw/code-yeongyu-oh-my-openagent-omo-the-best-agent-harness-2026-04-04.md
 links: []
 tags: [ai-agents, coding, editing]
 ---
@@ -42,4 +42,3 @@ The agent first reads a file, receives hashed line references, and then submits 
 ## Open Questions
 
 - How well do hash-based edit references scale to large, frequently changing files?
-

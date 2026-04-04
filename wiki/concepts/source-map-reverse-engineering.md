@@ -5,7 +5,7 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/leeyeelclaude-code-sourcemap claude-code full original source code from source maps.md
+  - raw/leeyeel-claude-code-sourcemap-claude-code-full-original-source-2026-04-04.md
 links: []
 tags: [reverse-engineering, source-maps, tooling]
 ---
@@ -42,4 +42,3 @@ The workflow downloads a packaged artifact, extracts its source maps, and rebuil
 ## Open Questions
 
 - What level of fidelity is enough for reliable architectural analysis?
-

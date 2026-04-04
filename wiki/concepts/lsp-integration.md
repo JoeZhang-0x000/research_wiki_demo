@@ -5,8 +5,8 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/anomalycoopencode The open source coding agent..md
-  - raw/code-yeongyuoh-my-openagent omo; the best agent harness - previously oh-my-opencode.md
+  - raw/anomalyco-opencode-the-open-source-coding-2026-04-04.md
+  - raw/code-yeongyu-oh-my-openagent-omo-the-best-agent-harness-2026-04-04.md
 links: []
 tags: [coding, ai-agents, tooling]
 ---
@@ -44,4 +44,3 @@ The harness connects to language servers for the current project and exposes sem
 ## Open Questions
 
 - Which LSP actions should agents use directly versus through higher-level abstractions?
-

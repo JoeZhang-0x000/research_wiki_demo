@@ -5,8 +5,8 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/bytedancedeer-flow An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minute.md
-  - raw/code-yeongyuoh-my-openagent omo; the best agent harness - previously oh-my-opencode.md
+  - raw/bytedance-deer-flow-an-open-source-long-horizon-2026-04-04.md
+  - raw/code-yeongyu-oh-my-openagent-omo-the-best-agent-harness-2026-04-04.md
 links: []
 tags: [ai-agents, orchestration, delegation]
 ---
@@ -44,4 +44,3 @@ An orchestrator plans the task, spawns one or more workers or specialists, gathe
 ## Open Questions
 
 - What contract between orchestrator and worker is enough to prevent wasted work?
-

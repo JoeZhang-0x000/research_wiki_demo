@@ -5,8 +5,8 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/bytedancedeer-flow An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minute.md
-  - raw/mem0aimem0 Universal memory layer for AI Agents.md
+  - raw/bytedance-deer-flow-an-open-source-long-horizon-2026-04-04.md
+  - raw/mem0ai-mem0-universal-memory-layer-for-ai-2026-04-04.md
 links: []
 tags: [ai-agents, memory]
 ---

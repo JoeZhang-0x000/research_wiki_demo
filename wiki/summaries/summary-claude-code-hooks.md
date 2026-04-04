@@ -6,7 +6,9 @@ created: 2026-04-04
 updated: 2026-04-04
 sources:
   - raw/8-claude-code-hooks-that-automate-what-you-2026-04-03.md
-  - https://x.com/zodchiii/status/2040000216456143002
+  - "https://x.com/zodchiii/status/2040000216456143002"
+links:
+  - "https://x.com/zodchiii/status/2040000216456143002"
 tags: []
 ---
 

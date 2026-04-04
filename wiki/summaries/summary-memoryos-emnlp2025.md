@@ -6,7 +6,9 @@ created: 2026-04-04
 updated: 2026-04-04
 sources:
   - raw/bai-lab-memoryos-emnlp-oral-memoryos-is-2026-04-04.md
-  - https://arxiv.org/abs/2506.06326
+  - "https://arxiv.org/abs/2506.06326"
+links:
+  - "https://github.com/BAI-LAB/MemoryOS"
 tags: []
 ---
 

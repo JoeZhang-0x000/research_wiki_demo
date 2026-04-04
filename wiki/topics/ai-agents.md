@@ -5,9 +5,9 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/bytedancedeer-flow An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minute.md
-  - raw/MaxGfelleropen-harness A code-first, composable SDK to build powerful AI agents.md
-  - raw/anomalycoopencode The open source coding agent..md
+  - raw/bytedance-deer-flow-an-open-source-long-horizon-2026-04-04.md
+  - raw/maxgfeller-open-harness-a-code-first-composable-sdk-2026-04-04.md
+  - raw/anomalyco-opencode-the-open-source-coding-2026-04-04.md
 links: []
 tags: [ai-agents, agent-systems, orchestration]
 ---
@@ -66,4 +66,3 @@ Some projects focus on a narrower slice such as coding, research, or memory-back
 - [[coding-agents]]
 - [[memory-management]]
 - [[context-engineering]]
-

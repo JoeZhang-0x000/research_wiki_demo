@@ -5,9 +5,9 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/mem0aimem0 Universal memory layer for AI Agents.md
-  - raw/BAI-LABMemoryOS EMNLP 2025 Oral MemoryOS is designed to provide a memory operating system for personalized AI agents..md
-  - raw/volcengineOpenViking OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradig.md
+  - raw/mem0ai-mem0-universal-memory-layer-for-ai-2026-04-04.md
+  - raw/bai-lab-memoryos-emnlp-oral-memoryos-is-2026-04-04.md
+  - raw/volcengine-openviking-openviking-is-an-open-source-2026-04-04.md
 links: []
 tags: [ai-agents, benchmark, memory]
 ---
@@ -46,4 +46,3 @@ The sources use LOCOMO as an external benchmark and report metrics such as accur
 ## Open Questions
 
 - Which memory behaviors does LOCOMO measure well, and which does it miss?
-

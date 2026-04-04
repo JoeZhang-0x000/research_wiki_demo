@@ -5,9 +5,10 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/adoresevergraph-memory Openclaw记忆插件Knowledge Graph + Memory；Knowledge Graph Context Engine for OpenClaw — extracts structured triples from conversations, compresses context 75%, enables cross-session experience reuse.md
-  - raw/danielwanwxam-memory Persistent memory for Claude Code — SQLite-backed knowledge store with BM25+Vector search and MCP integration.md
-  - raw/Thread by @karpathy.md
+  - raw/adoresever-graph-memory-graph-graph-2026-04-04.md
+  - raw/danielwanwx-am-memory-persistent-memory-for-claude-code-2026-04-04.md
+  - raw/thread-by-karpathy-2026-04-03.md
+links: []
 tags: [ai-agents, memory, persistence, retrieval]
 ---
 

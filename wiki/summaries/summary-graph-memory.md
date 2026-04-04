@@ -6,7 +6,9 @@ created: 2026-04-04
 updated: 2026-04-04
 sources:
   - raw/adoresever-graph-memory-graph-graph-2026-04-04.md
-  - https://github.com/adoresever/graph-memory
+  - "https://github.com/adoresever/graph-memory"
+links:
+  - "https://github.com/adoresever/graph-memory"
 tags: [ai-agents, memory, knowledge-graphs, openclaw]
 ---
 

@@ -5,7 +5,7 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/code-yeongyuoh-my-openagent omo; the best agent harness - previously oh-my-opencode.md
+  - raw/code-yeongyu-oh-my-openagent-omo-the-best-agent-harness-2026-04-04.md
 links: []
 tags: [ai-agents, orchestration, specialization]
 ---
@@ -42,4 +42,3 @@ The OmO source describes named roles such as orchestrator, deep worker, planner,
 ## Open Questions
 
 - Which specializations consistently outperform a strong general worker?
-

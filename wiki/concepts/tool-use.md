@@ -5,8 +5,8 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/MaxGfelleropen-harness A code-first, composable SDK to build powerful AI agents.md
-  - raw/anomalycoopencode The open source coding agent..md
+  - raw/maxgfeller-open-harness-a-code-first-composable-sdk-2026-04-04.md
+  - raw/anomalyco-opencode-the-open-source-coding-2026-04-04.md
 links: []
 tags: [ai-agents, tools, execution]
 ---
@@ -44,4 +44,3 @@ The harness exposes discrete callable tools with schemas or other interfaces, th
 ## Open Questions
 
 - Which tool affordances are robust enough for autonomous use across many repositories?
-

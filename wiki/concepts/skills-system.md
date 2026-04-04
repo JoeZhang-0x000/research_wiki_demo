@@ -5,8 +5,8 @@ status: draft
 created: 2026-04-04
 updated: 2026-04-04
 sources:
-  - raw/bytedancedeer-flow An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minute.md
-  - raw/code-yeongyuoh-my-openagent omo; the best agent harness - previously oh-my-opencode.md
+  - raw/bytedance-deer-flow-an-open-source-long-horizon-2026-04-04.md
+  - raw/code-yeongyu-oh-my-openagent-omo-the-best-agent-harness-2026-04-04.md
 links: []
 tags: [ai-agents, skills, extensibility]
 ---
@@ -45,4 +45,3 @@ The sources describe markdown-defined skills, selective loading, and cases where
 ## Open Questions
 
 - What metadata and selection policy make skills discoverable without loading too many of them?
-

@@ -5,8 +5,9 @@ status: stable
 created: 2024-01-15
 updated: 2026-04-04
 sources:
-  - raw/paper_flashattention2-2023.md
-  - https://arxiv.org/abs/2307.08691
+  - raw/paper-flashattention2-2023.md
+  - "https://arxiv.org/abs/2307.08691"
+links: []
 tags: [attention, cuda, memory-efficiency, kernels, transformer]
 ---
 
