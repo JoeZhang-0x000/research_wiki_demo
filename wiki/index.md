@@ -178,6 +178,7 @@ The following concepts are useful follow-up pages for expanding the wiki:
 | [[summary-karpathy-second-brain-how-to-build-it]] | Karpathy第二大脑方案：三个文件夹+CLAUDE.md，AI维护wiki积累知识 (2026) | [[markdown-knowledge-bases]] |
 | [[summary-meta-agent-continual-learning-for-agents]] | Meta-Agent: 从生产轨迹持续改进harness，holdout准确率67%→87% (2026) | [[ai-agents]] |
 | [[summary-观摩学习顶级agents如何对gpt进行行为矫正]] | Hermes Agent和OpenClaw修复GPT-5.4行为缺陷：光说不做/半途而废/不验证/编造 (2026) | [[ai-agents]] |
+| [[summary-mcp-vs-cli-debate-speed]] | MCP vs CLI争议核心：速度问题 + Cerebras推理加速 + Monty安全代码执行 (2026) | [[ai-agents]] |
 
 ---
 
@@ -274,3 +275,4 @@ The following concepts are useful follow-up pages for expanding the wiki:
 - 2026-04-07 — [[summary-karpathy-second-brain-how-to-build-it]] created (draft)
 - 2026-04-07 — [[summary-meta-agent-continual-learning-for-agents]] created (draft)
 - 2026-04-07 — [[summary-观摩学习顶级agents如何对gpt进行行为矫正]] created (draft)
+- 2026-04-07 — [[summary-mcp-vs-cli-debate-speed]] created (draft)
