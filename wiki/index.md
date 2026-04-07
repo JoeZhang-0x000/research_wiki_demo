@@ -1,7 +1,7 @@
 ---
 title: Knowledge Base Index
 type: index
-updated: 2026-04-04
+updated: 2026-04-07
 ---
 
 # Research Wiki — Index
@@ -24,6 +24,7 @@ Knowledge base covering: **High-Performance Computing**, **AI Infrastructure**, 
 | [[llm-quantization]] | Methods for quantizing LLM weights, activations, and KV cache to reduce memory and accelerate inference | draft |
 | [[markdown-knowledge-bases]] | File-native knowledge workflows built from raw markdown sources, summaries, and indexes | draft |
 | [[memory-management]] | Storage, updating, retrieval, and lifecycle control for agent memory systems | draft |
+| [[fundamental-physics]] | Deep questions about spacetime, gravity, particle physics, and the nature of reality | draft |
 
 ---
 
@@ -93,6 +94,16 @@ This section collects the atomic knowledge units that topic and summary pages bu
 | [[factual-memory]] | Durable store of preferences, constraints, and other declarative facts | draft |
 | [[working-memory]] | Actively maintained task state used in the current interaction | draft |
 
+### Physics / Foundations
+
+| Concept | One-line summary | Status |
+|---------|-----------------|--------|
+| [[holographic-principle]] | Information encoded on boundary scaling with area, not volume | draft |
+| [[gauge-theory]] | Field theory with redundancy under symmetry transformations | draft |
+| [[quantum-gravity]] | Unifying quantum mechanics with general relativity | draft |
+| [[standard-model]] | Particle physics model: SU(3)×SU(2)×U(1)/Z₆ with quarks, leptons, gauge bosons | draft |
+| [[measurement-problem]] | Why quantum measurement yields definite outcomes | draft |
+
 ### Candidate Future Pages
 
 The following concepts are useful follow-up pages for expanding the wiki:
@@ -158,6 +169,7 @@ The following concepts are useful follow-up pages for expanding the wiki:
 | [[summary-gptq-accurate-post-training-2022]] | GPTQ: 175B in 4 GPU hours to 4-bit, ICLR 2023 | [[llm-quantization]] |
 | [[summary-atom-lowbit-quantization-2023]] | W4A4 serving: 7.7x throughput vs FP16 (2023) | [[llm-quantization]] |
 | [[summary-neural-machine-translation-4bit-2019]] | Early 4-bit NMT quantization with log quantization and error feedback (2019) | [[llm-quantization]] |
+| [[summary-observers-are-all-you-need]] | Observer Patch Holography: physics from observer-overlap consistency on holographic screens (2026) | [[fundamental-physics]] |
 
 ---
 
@@ -239,3 +251,10 @@ The following concepts are useful follow-up pages for expanding the wiki:
 - 2026-04-04 — [[mcp-server]] created (draft)
 - 2026-04-04 — [[memory-operating-system]] created (draft)
 - 2026-04-04 — [[multi-level-memory]] created (draft)
+- 2026-04-07 — [[fundamental-physics]] created (draft)
+- 2026-04-07 — [[summary-observers-are-all-you-need]] created (draft)
+- 2026-04-07 — [[holographic-principle]] created (draft)
+- 2026-04-07 — [[gauge-theory]] created (draft)
+- 2026-04-07 — [[quantum-gravity]] created (draft)
+- 2026-04-07 — [[standard-model]] created (draft)
+- 2026-04-07 — [[measurement-problem]] created (draft)
