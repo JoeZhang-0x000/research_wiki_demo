@@ -55,6 +55,7 @@ This section collects the atomic knowledge units that topic and summary pages bu
 | [[model-harness]] | Evaluation scaffolding (prompting, tools, context) surrounding a fixed LLM | draft |
 | [[terminalbench]] | Benchmark for agentic coding tasks in terminal/shell environments | draft |
 | [[claude-code]] | Terminal-native coding agent used as a reference point by several open-source projects | draft |
+| [[gepa]] | Genetic-Pareto Prompt Evolution: evolutionary prompt optimization without weight updates | draft |
 | [[context-database]] | Context store built around agent browseability rather than flat retrieval only | draft |
 | [[discipline-agents]] | Specialized agent roles used inside a coordinated multi-agent workflow | draft |
 | [[hashline-edit-tool]] | Content-addressed editing approach that guards against stale-line changes | draft |
@@ -184,6 +185,8 @@ The following concepts are useful follow-up pages for expanding the wiki:
 | [[summary-raca-research-assistant-coding-agent-for-phd-students]] | RACA: PhD学生的Claude Code harness，SSH连Slurm+HuggingFace可视化，只说话不写代码 (2026) | [[ai-agents]] |
 | [[summary-asi-evolve-automated-ai-research-self-improvement]] | ASI-Evolve: AI运行完整科学循环自我改进，发现100+新架构，超越人类3x (2026) | [[ai-agents]] |
 | [[summary-feynman-open-source-ai-research-agent]] | Feynman: 四agent研究系统(Researcher/Reviewer/Writer/Verifier)，MIT协议 (2026) | [[ai-agents]] |
+| [[summary-thread-by-mitchell-hashimoto-ai-engineering-six-stages]] | Hashimoto六阶段AI工程演进：Harness Engineering是核心，AGENTS.md+验证工具=完整Harness (2026) | [[ai-agents]] |
+| [[summary-thread-by-rajapatnaik-nousresearch-gepa-self-evolving-agents]] | NousResearch GEPA：DSPy+遗传Pareto优化，$2-10进化Agent提示词，无需GPU训练 (2026) | [[ai-agents]] |
 | [[summary-cambricon-vllm-mlu-hardware-plugin]] | Cambricon vLLM-MLU: MLU370+插件，CNCL通信，CnMemAllocator，DeepSeek-V3.2-Exp首发 (2025) | [[llm-inference-engines]] |
 | [[summary-vllm-metax-maca-hardware-plugin]] | vLLM-MetaX MACA: RFC #11162兼容，8种Attention后端，mcoplib生产内核，v0.15.0 (2026) | [[llm-inference-engines]] |
 | [[summary-vllm-kunlun-xpu-hardware-plugin]] | vLLM-Kunlun XPU: 昆仑芯P800插件，三层CUDA兼容，FlashMLA/FusedMoE，388 stars (2025) | [[llm-inference-engines]] |
@@ -296,3 +299,6 @@ The following concepts are useful follow-up pages for expanding the wiki:
 - 2026-04-07 — [[summary-vllm-kunlun-development-workflow-guide]] created (draft)
 - 2026-04-07 — [[summary-vllm-kunlun-plugin-baidu-kunlun-xin-launch]] created (draft)
 - 2026-04-07 — [[llm-inference-engines]] created (draft)
+- 2026-04-07 — [[summary-thread-by-mitchell-hashimoto-ai-engineering-six-stages]] created (draft)
+- 2026-04-07 — [[summary-thread-by-rajapatnaik-nousresearch-gepa-self-evolving-agents]] created (draft)
+- 2026-04-07 — [[gepa]] created (draft)
