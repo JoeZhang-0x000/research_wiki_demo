@@ -170,6 +170,8 @@ The following concepts are useful follow-up pages for expanding the wiki:
 | [[summary-atom-lowbit-quantization-2023]] | W4A4 serving: 7.7x throughput vs FP16 (2023) | [[llm-quantization]] |
 | [[summary-neural-machine-translation-4bit-2019]] | Early 4-bit NMT quantization with log quantization and error feedback (2019) | [[llm-quantization]] |
 | [[summary-observers-are-all-you-need]] | Observer Patch Holography: physics from observer-overlap consistency on holographic screens (2026) | [[fundamental-physics]] |
+| [[summary-搞懂缓存机制从gemma4到claude-code省80token]] | KV cache原理 + Claude Code缓存工程：省3-5倍token (2026) | [[llm-quantization]] |
+| [[summary-苏格拉底追问维特根斯坦拆解波兰尼兜底我的系统再次升级]] | 苏格拉底+维特根斯坦+波兰尼：模糊念头→清晰想法的三层系统 (2026) | [[ai-agents]] |
 
 ---
 
@@ -258,3 +260,5 @@ The following concepts are useful follow-up pages for expanding the wiki:
 - 2026-04-07 — [[quantum-gravity]] created (draft)
 - 2026-04-07 — [[standard-model]] created (draft)
 - 2026-04-07 — [[measurement-problem]] created (draft)
+- 2026-04-07 — [[summary-搞懂缓存机制从gemma4到claude-code省80token]] created (draft)
+- 2026-04-07 — [[summary-苏格拉底追问维特根斯坦拆解波兰尼兜底我的系统再次升级]] created (draft)
