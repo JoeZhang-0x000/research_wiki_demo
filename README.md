@@ -2,6 +2,8 @@
 
 LLM-native knowledge base for AI research — HPC, AI Infra, Agents.
 
+**This repo is for personal use. For a clean reference version, see: https://github.com/JoeZhang-0x000/research_wiki_demo**
+
 ---
 
 ## How It Works
