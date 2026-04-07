@@ -21,6 +21,7 @@ Knowledge base covering: **High-Performance Computing**, **AI Infrastructure**, 
 | [[graph-rag-systems]] | Retrieval systems that combine vector search with explicit graph structure | draft |
 | [[gpu-memory-optimization]] | Techniques for reducing GPU memory usage and improving bandwidth utilization | draft |
 | [[high-performance-computing]] | Hardware-aware performance work across AI infrastructure and memory-heavy systems | draft |
+| [[llm-inference-engines]] | vLLM and hardware plugins for LLM inference on diverse accelerators including Chinese AI chips | draft |
 | [[llm-quantization]] | Methods for quantizing LLM weights, activations, and KV cache to reduce memory and accelerate inference | draft |
 | [[markdown-knowledge-bases]] | File-native knowledge workflows built from raw markdown sources, summaries, and indexes | draft |
 | [[memory-management]] | Storage, updating, retrieval, and lifecycle control for agent memory systems | draft |
@@ -183,6 +184,11 @@ The following concepts are useful follow-up pages for expanding the wiki:
 | [[summary-raca-research-assistant-coding-agent-for-phd-students]] | RACA: PhD学生的Claude Code harness，SSH连Slurm+HuggingFace可视化，只说话不写代码 (2026) | [[ai-agents]] |
 | [[summary-asi-evolve-automated-ai-research-self-improvement]] | ASI-Evolve: AI运行完整科学循环自我改进，发现100+新架构，超越人类3x (2026) | [[ai-agents]] |
 | [[summary-feynman-open-source-ai-research-agent]] | Feynman: 四agent研究系统(Researcher/Reviewer/Writer/Verifier)，MIT协议 (2026) | [[ai-agents]] |
+| [[summary-cambricon-vllm-mlu-hardware-plugin]] | Cambricon vLLM-MLU: MLU370+插件，CNCL通信，CnMemAllocator，DeepSeek-V3.2-Exp首发 (2025) | [[llm-inference-engines]] |
+| [[summary-vllm-metax-maca-hardware-plugin]] | vLLM-MetaX MACA: RFC #11162兼容，8种Attention后端，mcoplib生产内核，v0.15.0 (2026) | [[llm-inference-engines]] |
+| [[summary-vllm-kunlun-xpu-hardware-plugin]] | vLLM-Kunlun XPU: 昆仑芯P800插件，三层CUDA兼容，FlashMLA/FusedMoE，388 stars (2025) | [[llm-inference-engines]] |
+| [[summary-vllm-kunlun-development-workflow-guide]] | vLLM-Kunlun开发流程：5阶段标准化流程，Qwen3.5三天适配案例，torch_xray精度诊断 (2026) | [[llm-inference-engines]] |
+| [[summary-vllm-kunlun-plugin-baidu-kunlun-xin-launch]] | vLLM-Kunlun正式发布：百度百舸+昆仑芯，RFC #11162插件，20+模型支持，xpu_profiler工具链 (2025) | [[llm-inference-engines]] |
 
 ---
 
@@ -284,3 +290,9 @@ The following concepts are useful follow-up pages for expanding the wiki:
 - 2026-04-07 — [[summary-raca-research-assistant-coding-agent-for-phd-students]] created (draft)
 - 2026-04-07 — [[summary-asi-evolve-automated-ai-research-self-improvement]] created (draft)
 - 2026-04-07 — [[summary-feynman-open-source-ai-research-agent]] created (draft)
+- 2026-04-07 — [[summary-cambricon-vllm-mlu-hardware-plugin]] created (draft)
+- 2026-04-07 — [[summary-vllm-metax-maca-hardware-plugin]] created (draft)
+- 2026-04-07 — [[summary-vllm-kunlun-xpu-hardware-plugin]] created (draft)
+- 2026-04-07 — [[summary-vllm-kunlun-development-workflow-guide]] created (draft)
+- 2026-04-07 — [[summary-vllm-kunlun-plugin-baidu-kunlun-xin-launch]] created (draft)
+- 2026-04-07 — [[llm-inference-engines]] created (draft)
