@@ -173,6 +173,11 @@ The following concepts are useful follow-up pages for expanding the wiki:
 | [[summary-搞懂缓存机制从gemma4到claude-code省80token]] | KV cache原理 + Claude Code缓存工程：省3-5倍token (2026) | [[llm-quantization]] |
 | [[summary-苏格拉底追问维特根斯坦拆解波兰尼兜底我的系统再次升级]] | 苏格拉底+维特根斯坦+波兰尼：模糊念头→清晰想法的三层系统 (2026) | [[ai-agents]] |
 | [[summary-thread-by-deedydas-meta-harnesses]] | Meta Harness: harness的自我优化版本，大幅超越传统harness (2026) | [[ai-agents]] |
+| [[summary-thread-by-gittrend0x-github-trending-self-evolving-agents]] | GitHub 5个自我进化记忆Agent爆火：从记忆进化到多Agent辩论到自动科研 (2026) | [[ai-agents]] |
+| [[summary-thread-by-hanzheng-7-coral-autonomous-multi-agent-discovery]] | CORAL: 多Agent形成研究社区，50%以上突破来自互相借鉴 (2026) | [[ai-agents]] |
+| [[summary-karpathy-second-brain-how-to-build-it]] | Karpathy第二大脑方案：三个文件夹+CLAUDE.md，AI维护wiki积累知识 (2026) | [[markdown-knowledge-bases]] |
+| [[summary-meta-agent-continual-learning-for-agents]] | Meta-Agent: 从生产轨迹持续改进harness，holdout准确率67%→87% (2026) | [[ai-agents]] |
+| [[summary-观摩学习顶级agents如何对gpt进行行为矫正]] | Hermes Agent和OpenClaw修复GPT-5.4行为缺陷：光说不做/半途而废/不验证/编造 (2026) | [[ai-agents]] |
 
 ---
 
@@ -264,3 +269,8 @@ The following concepts are useful follow-up pages for expanding the wiki:
 - 2026-04-07 — [[summary-搞懂缓存机制从gemma4到claude-code省80token]] created (draft)
 - 2026-04-07 — [[summary-苏格拉底追问维特根斯坦拆解波兰尼兜底我的系统再次升级]] created (draft)
 - 2026-04-07 — [[summary-thread-by-deedydas-meta-harnesses]] created (draft)
+- 2026-04-07 — [[summary-thread-by-gittrend0x-github-trending-self-evolving-agents]] created (draft)
+- 2026-04-07 — [[summary-thread-by-hanzheng-7-coral-autonomous-multi-agent-discovery]] created (draft)
+- 2026-04-07 — [[summary-karpathy-second-brain-how-to-build-it]] created (draft)
+- 2026-04-07 — [[summary-meta-agent-continual-learning-for-agents]] created (draft)
+- 2026-04-07 — [[summary-观摩学习顶级agents如何对gpt进行行为矫正]] created (draft)
