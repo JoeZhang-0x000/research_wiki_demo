@@ -191,6 +191,10 @@ The following concepts are useful follow-up pages for expanding the wiki:
 | [[summary-thread-by-rajapatnaik-nousresearch-gepa-self-evolving-agents]] | NousResearch GEPA：DSPy+遗传Pareto优化，$2-10进化Agent提示词，无需GPU训练 (2026) | [[ai-agents]] |
 | [[summary-thread-by-xiao-zcloak-agent-trust-protocol-atp-zcloak]] | DeepMind报告：网页隐藏指令86%成功率攻破Agent，ATP=Agent版HTTPS，密码学身份+签名消息+防篡改账本 (2026) | [[ai-agents]] |
 | [[summary-google-deepmind-ai-agent-traps-ssrn-2026]] | DeepMind "AI Agent Traps"：六类攻击 taxonomy，感知/推理/记忆/行为/多Agent/人机协同，86% injection成功率，所有类别均有PoC (2026) | [[ai-agents]] |
+| [[summary-251215834-optimizing-agentic-lm-inference-speculative-tool-calls]] | Speculative tool calls + sequence residency for agentic LM inference：几百 tokens/秒 throughput 提升 (2025) | [[ai-agents]] |
+| [[summary-260318897-act-while-thinking-paste]] | PASTE: Pattern-Aware Speculative Tool Execution，Pattern Tuple (C,T,f,p) + opportunistic scheduling，task completion time -48.5%，tool throughput 1.8x (2026) | [[ai-agents]] |
+| [[summary-thread-by-hitw93]] | Tw93's Waza: 8个AI时代工程师技能集(/think, /design, /hunt, /check, /read, /write, /learn, /health)，全markdown，100%开源 (2026) | [[ai-agents]] |
+| [[summary-thread-by-heynavtoor]] | Karpathy's LLM Wiki: compile-once vs RAG re-derive，5k stars 48h，自动compound knowledge，Obsidian=IDE, LLM=programmer (2026) | [[markdown-knowledge-bases]] |
 | [[summary-cambricon-vllm-mlu-hardware-plugin]] | Cambricon vLLM-MLU: MLU370+插件，CNCL通信，CnMemAllocator，DeepSeek-V3.2-Exp首发 (2025) | [[llm-inference-engines]] |
 | [[summary-vllm-metax-maca-hardware-plugin]] | vLLM-MetaX MACA: RFC #11162兼容，8种Attention后端，mcoplib生产内核，v0.15.0 (2026) | [[llm-inference-engines]] |
 | [[summary-vllm-kunlun-xpu-hardware-plugin]] | vLLM-Kunlun XPU: 昆仑芯P800插件，三层CUDA兼容，FlashMLA/FusedMoE，388 stars (2025) | [[llm-inference-engines]] |
@@ -311,3 +315,7 @@ The following concepts are useful follow-up pages for expanding the wiki:
 - 2026-04-07 — [[summary-google-deepmind-ai-agent-traps-ssrn-2026]] created (draft)
 - 2026-04-07 — [[summary-karpathy-llm-wiki-pattern-2026]] created (draft)
 - 2026-04-07 — [[markdown-knowledge-base]] updated (added LLM Wiki gist source)
+- 2026-04-08 — [[summary-251215834-optimizing-agentic-lm-inference-speculative-tool-calls]] created (draft)
+- 2026-04-08 — [[summary-260318897-act-while-thinking-paste]] created (draft)
+- 2026-04-08 — [[summary-thread-by-hitw93]] created (draft)
+- 2026-04-08 — [[summary-thread-by-heynavtoor]] created (draft)
