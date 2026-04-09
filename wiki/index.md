@@ -195,6 +195,7 @@ The following concepts are useful follow-up pages for expanding the wiki:
 | [[summary-260318897-act-while-thinking-paste]] | PASTE: Pattern-Aware Speculative Tool Execution，Pattern Tuple (C,T,f,p) + opportunistic scheduling，task completion time -48.5%，tool throughput 1.8x (2026) | [[ai-agents]] |
 | [[summary-thread-by-hitw93]] | Tw93's Waza: 8个AI时代工程师技能集(/think, /design, /hunt, /check, /read, /write, /learn, /health)，全markdown，100%开源 (2026) | [[ai-agents]] |
 | [[summary-thread-by-heynavtoor]] | Karpathy's LLM Wiki: compile-once vs RAG re-derive，5k stars 48h，自动compound knowledge，Obsidian=IDE, LLM=programmer (2026) | [[markdown-knowledge-bases]] |
+| [[summary-nashsullm-wiki]] | nashsu/llm_wiki: Desktop app implementing Karpathy's LLM Wiki pattern with two-step ingest, knowledge graph, and deep research (2026) | [[markdown-knowledge-bases]] |
 | [[summary-cambricon-vllm-mlu-hardware-plugin]] | Cambricon vLLM-MLU: MLU370+插件，CNCL通信，CnMemAllocator，DeepSeek-V3.2-Exp首发 (2025) | [[llm-inference-engines]] |
 | [[summary-vllm-metax-maca-hardware-plugin]] | vLLM-MetaX MACA: RFC #11162兼容，8种Attention后端，mcoplib生产内核，v0.15.0 (2026) | [[llm-inference-engines]] |
 | [[summary-vllm-kunlun-xpu-hardware-plugin]] | vLLM-Kunlun XPU: 昆仑芯P800插件，三层CUDA兼容，FlashMLA/FusedMoE，388 stars (2025) | [[llm-inference-engines]] |
@@ -319,3 +320,4 @@ The following concepts are useful follow-up pages for expanding the wiki:
 - 2026-04-08 — [[summary-260318897-act-while-thinking-paste]] created (draft)
 - 2026-04-08 — [[summary-thread-by-hitw93]] created (draft)
 - 2026-04-08 — [[summary-thread-by-heynavtoor]] created (draft)
+- 2026-04-09 — [[summary-nashsullm-wiki]] created (draft)
